@@ -10,7 +10,6 @@ class Student(User):
     def learn(self, knowledge):
         self.knowledge.append(knowledge)
 
-# Create a new instance of the Student class with the first name "John" and the last name "Doe"
 john_doe_student = Student("John", "Doe")
 
 # Test the learn method
